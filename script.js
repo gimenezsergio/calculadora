@@ -73,5 +73,12 @@ function punto() {
 }
 
 function igual() {
-    document.querySelector('.display').innerText += '='
+    //variable
+    var cuenta = document.querySelector('.display').innerText
+    console.log(cuenta)
+    console.log(cuenta + 3) //solucionar que pueda hacer la cuenta con un tipo de dato numerico
+    console.log(cuenta + 78) 
+    console.log(eval(cuenta))
+    document.querySelector('.display').innerText = eval(cuenta)
+     
 }
